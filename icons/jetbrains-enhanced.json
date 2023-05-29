@@ -7,6 +7,9 @@
     "_apple": {
       "iconPath": "./svg/apple-icon.svg"
     },
+    "_application.yml": {
+      "iconPath": "./svg/my_add/springBoot.svg"
+    },
     "_angular": {
       "iconPath": "./svg/angular-icon.svg"
     },
@@ -36,6 +39,9 @@
     },
     "_clojure": {
       "iconPath": "./svg/clojure-icon.svg"
+    },
+    "_class": {
+      "iconPath": "./svg/my_add/class.svg"
     },
     "_coffeescript": {
       "iconPath": "./svg/coffeescript-icon.svg"
@@ -175,9 +181,6 @@
     "_jade": {
       "iconPath": "./svg/jade-icon.svg"
     },
-    "_java": {
-      "iconPath": "./svg/java-icon.svg"
-    },
     "_javatypeclass": {
       "iconPath": "./svg/javaclass-icon.svg"
     },
@@ -223,6 +226,9 @@
     "_markdown": {
       "iconPath": "./svg/markdown-icon.svg"
     },
+    "_maven": {
+      "iconPath": "./svg/my_add/maven_dark.svg"
+    },
     "_model": {
       "iconPath": "./svg/model-icon.svg"
     },
@@ -261,6 +267,12 @@
     },
     "_rust": {
       "iconPath": "./svg/rust-icon.svg"
+    },
+    "_run": {
+      "iconPath": "./svg/my_add/run_dark.svg"
+    },
+    "_testClass": {
+      "iconPath": "./svg/my_add/testClass.svg"
     },
     "_slim": {
       "iconPath": "./svg/slim-icon.svg"
@@ -351,21 +363,25 @@
     "android": "_android",
     "assets": "_folderassets",
     "config": "_folderconfig",
+    "classes": "_folder-orange",
+    "test-classes": "_folder-orange",
     "dmp": "_log",
     "docker": "_docker",
     "gen": "_foldergen",
     "ios": "_apple",
     "images": "_folderassets",
+    "main/java": "_folder-blue",
+    "test/java": "_folder-green",
     "log": "_log",
     "logs": "_log",
     "node_modules": "_foldermodules",
     "public": "_folderpublic",
     "resources": "_folderresources",
     "settings": "_folderconfig",
-    "src": "_folder-blue",
+    "src": "_folder",
     "source": "_folder-blue",
     "scripts": "_folder-orange",
-    "tests": "_folder-green",
+    "target": "_folder-orange",
     "mock": "_folder-purple",
     "web": "_folderpublic"
   },
@@ -537,7 +553,7 @@
     "handlebars": "_handlebars",
     "html": "_html",
     "jade": "_jade",
-    "java": "_java",
+    "java": "_class",
     "javascript": "_js",
     "json": "_json",
     "lua": "_lua",
@@ -558,6 +574,9 @@
     "yaml": "_yaml"
   },
   "fileNames": {
+    "AppRun.java": "_run",
+    "AppRunTest.java": "_testClass",
+    "application.yml": "_application.yml",
     "cspell.json": "_spellcheck",
     "docker-compose.yml": "_dockercompose",
     "dockerfile": "_dockerfile",
@@ -572,6 +591,7 @@
     "makefile": "_makefile",
     "AndroidManifest.xml": "_manifest",
     "npm-debug.log": "_npm",
+    "pom.xml": "_maven",
     "readme.md": "_readme",
     "sass-lint.yml": "_sass",
     "tailwind.coffee": "_tailwind",
