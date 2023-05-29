@@ -1,15 +1,24 @@
-# JetBrains Icons Enhanced for VSCode
+# IDEA Icons To Maven
 
-[![Rating](https://img.shields.io/visual-studio-marketplace/stars/BrennonDenny.vsc-jetbrains-icons-enhanced?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=BrennonDenny.vsc-jetbrains-icons-enhanced)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/BrennonDenny.vsc-jetbrains-icons-enhanced?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=BrennonDenny.vsc-jetbrains-icons-enhanced)
+This Plugin is a collection of [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/) with custom edits and additions.
 
-**[Get The VSCode Extension](https://marketplace.visualstudio.com/items?itemName=BrennonDenny.vsc-jetbrains-icons-enhanced)**
+此插件是引用了 [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/)，加上自定义。
 
-[Request Icon](https://github.com/brennondenny/vsc-jetbrains-icons-enhanced/issues)
+## Project Structure
 
-JetBrains Icons Enhanced is a collection of
-[JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/) with
-custom edits and additions.
+<img src="C:\Users\李\AppData\Roaming\Typora\typora-user-images\image-20230529170801242.png" alt="image-20230529170801242" style="zoom:80%;" />
+
+**This Plugin also has some optimizations for the springboot project:** Only the AppRun.java and AppRunTest.java files have custom icons, otherwise it is the default java icon.
+
+**插件也有对SpringBoot项目的优化：**仅是AppRun.java和AppRunTest.java有定制图标。
+
+==Pay attention!!!==
+
+Since vscode does not recognize interfaces and abstract classes, all java suffix files are the same icon
+
+==注意==
+
+由于vscode无法识别接口和抽象类，所有java后缀的文件都是同一个图标。
 
 ## Icons
 
