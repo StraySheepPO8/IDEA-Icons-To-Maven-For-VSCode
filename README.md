@@ -1,12 +1,11 @@
 # IDEA Icons To Maven
 
-This Plugin is a collection of [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/) with custom edits and additions.
-
 此插件是引用了 [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/)，加上自定义。
+This Plugin is a collection of [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/) with custom edits and additions.
 
 ## Project Structure
 
-<img src="C:\Users\李\AppData\Roaming\Typora\typora-user-images\image-20230529170801242.png" alt="image-20230529170801242" style="zoom:80%;" />
+![image-20230529170801242](https://github.com/StraySheepPO8/IDEA-Icons-To-Maven-For-VSCode/assets/97979993/a242153b-08db-430a-94f6-8707e210498b)
 
 **This Plugin also has some optimizations for the springboot project:** Only the AppRun.java and AppRunTest.java files have custom icons, otherwise it is the default java icon.
 
