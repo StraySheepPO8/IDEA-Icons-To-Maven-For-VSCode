@@ -1,17 +1,17 @@
 {
-  "name": "vsc-jetbrains-icons-enhanced",
-  "displayName": "JetBrains Icons Enhanced",
-  "description": "JetBrains Icons Enhanced is a collection of JetBrains icons with custom edits and selections.",
+  "name": "IDEA-Icons-To-Maven-For-VSCode",
+  "displayName": "IDEA-Icons-To-Maven-For-VSCode",
+  "description": "IDEA icons to maven for VSCode",
   "categories": [
-    "Themes"
+    "Icons"
   ],
-  "version": "1.5.0",
-  "publisher": "BrennonDenny",
-  "repository": "https://github.com/brennondenny/vsc-jetbrains-icons-enhanced",
+  "version": "0.0.2",
+  "publisher": "lijialin",
+  "repository": "https://github.com/StraySheepPO8/IDEA-Icons-To-Maven-For-VSCode",
   "engines": {
-    "vscode": "^1.52.0"
+    "vscode": "^1.78.2"
   },
-  "icon": "icon.png",
+  "icon": "plugin_icon.png",
   "extensionKind": [
     "ui",
     "workspace"
@@ -19,19 +19,16 @@
   "keywords": [
     "jetbrains",
     "icons",
-    "theme",
-    "webstorm",
-    "intellij",
-    "pycharm"
+    "intellij"
   ],
   "bugs": {
-    "url": "https://github.com/brennondenny/vsc-jetbrains-icons-enhanced/issues"
+    "url": "https://github.com/StraySheepPO8/IDEA-Icons-To-Maven-For-VSCode"
   },
   "contributes": {
     "iconThemes": [
       {
-        "id": "vsc-jetbrains-icons-enhanced",
-        "label": "JetBrains Icons Enhanced",
+        "id": "IDEA-Icons-To-Maven-For-VSCode",
+        "label": "VSCode Icons Enhanced With JetBrains",
         "path": "./icons/jetbrains-enhanced.json"
       }
     ]

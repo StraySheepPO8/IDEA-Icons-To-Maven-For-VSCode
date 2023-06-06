@@ -1,25 +1,26 @@
-# IDEA Icons To Maven
+## 简介/intro
 
-此插件是引用了 [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/)，加上自定义。
-This Plugin is a collection of [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/) with custom edits and additions.
+此插件是引用了 [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/)，加上自定义。forked 自[brennondenny/vsc-jetbrains-icons-enhanced](https://github.com/brennondenny/vsc-jetbrains-icons-enhanced)
 
-## Project Structure
+---
 
-![image-20230529170801242](https://github.com/StraySheepPO8/IDEA-Icons-To-Maven-For-VSCode/assets/97979993/a242153b-08db-430a-94f6-8707e210498b)
+This Plugin is a collection of [JetBrains Icons](https://jetbrains.design/intellij/resources/icons_list/) with custom edits and additions. Forked from [brennondenny/vsc-jetbrains-icons-enhanced](https://github.com/brennondenny/vsc-jetbrains-icons-enhanced)
 
-**This Plugin also has some optimizations for the springboot project:** Only the AppRun.java and AppRunTest.java files have custom icons, otherwise it is the default java icon.
+## 项目结构/Project Structure
+
+<img src="myExample.png" alt="Dark Theme Exmaple" style="zoom:80%;" />
 
 **插件也有对SpringBoot项目的优化：**仅是AppRun.java和AppRunTest.java有定制图标。
 
-==Pay attention!!!==
+**注意**：由于vscode无法识别接口和抽象类，所有java后缀的文件都是同一个图标。
 
-Since vscode does not recognize interfaces and abstract classes, all java suffix files are the same icon
+---
 
-==注意==
+**This Plugin also has some optimizations for the springboot project:** Only the AppRun.java and AppRunTest.java files have custom icons, otherwise it is the default java icon.
 
-由于vscode无法识别接口和抽象类，所有java后缀的文件都是同一个图标。
+**Pay attention**：Since vscode does not recognize interfaces and abstract classes, all java suffix files are the same icon
 
-## Icons
+## 图标/Icons
 
 ![Dark Theme Exmaple](examples.png)
 
